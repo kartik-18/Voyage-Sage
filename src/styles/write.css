@@ -1,0 +1,46 @@
+.write {
+  max-width: 600px;
+  /* margin: 20 auto; */
+  margin: 60px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.write h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+input {
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+.write label {
+  display: block;
+  margin-bottom: 10px;
+}
+.file{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.write input[type="text"],
+.write textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.write button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.write button:hover {
+  background-color: #0056b3;
+}
